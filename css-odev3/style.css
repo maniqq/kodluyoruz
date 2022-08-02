@@ -1,0 +1,189 @@
+/* Sayfadaki bağlantı özniteliğine sahip öğelere metin rengi ve altı çizili olmayan öznitelik verdik */
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+/* İmleç öğenin üzerindeyken öğenin altı çizilmeli */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sayfadaki tüm öğelere font-family özelliği verildi */
+body {
+    font-family: arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Top-bar kenar boşluğu, dolgu ve yazı tipi boyutu özellikleri verdik */
+.top-bar {
+    margin-top: 18px;
+    padding: 4px 23px;
+    font-size: small;
+}
+
+/* Üst çubuktaki öğeler konumlandırdık */
+#about-link {
+    margin-left: 6px;
+}
+
+#store-link {
+    margin-top: 6px;
+}
+
+#gmail-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 240px;
+}
+
+#images-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 170px;
+}
+
+#apps-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 130px;
+}
+
+#sign-in-button {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    margin-top: 3px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 75px;
+    height: 30px;
+}
+
+/* İmleç buton üzerindeyken, oturum açma butonu farklı renkte ve gölgeli olmalıdır */
+#sign-in-button:hover {
+    background-color: #3180e7;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(49, 128, 231, 0.44);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(49, 128, 231, 0.44);
+    box-shadow: 0px 1px 1px 1px rgba(49, 128, 231, 0.44);
+}
+
+
+/* Logo pozisyonu */
+#logo {
+    margin-top: 115px;
+}
+
+/* Üst çubuktaki tüm öğeler soldan yerleştirildi */
+#search-bar * {
+    float: left;
+}
+
+/* Arama çubuğunun boyutları verildi
+    Oluşturulan arama çubuğunun kenarlığı
+    Arama çubuğunun gölgesi oluşturduk. */
+#search-bar {
+    margin-top: 25px;
+    width: 38%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    -webkit-box-shadow: -1px 1px 2px 1px rgba(209, 207, 209, 1);
+    -moz-box-shadow: -1px 1px 2px 1px rgba(209, 207, 209, 1);
+    box-shadow: -1px 1px 2px 1px rgba(209, 207, 209, 1);
+}
+
+/* Arama simgesi ve mikrofon simgesi konumlandırıldı */
+#search-icon {
+    margin-top: 9px;
+    margin-left: 8px;
+}
+
+#mic-icon {
+    margin-left: 510px;
+    margin-top: 5px;
+}
+
+/* Arama alanındaki tüm öğeler konumlandırıldı */
+#search-area * {
+    margin-top: 5px;
+    width: 31%;
+    height: 4%;
+    position: absolute;
+    left: 34%;
+    border: none;
+    outline: none;
+    font-size: large;
+}
+
+/* Mikrofon simgesinin üzerindeyken imleç bir işaretçi olmalıdır*/
+#mic-icon:hover {
+    cursor: pointer;
+}
+
+/* Düğmeler için gölgeler oluşturuldu
+    Düğmelere kenarlıklar eklendi
+    Renk, yazı tipi boyutu, dolgu ve kenar boşluğu özellikleri ayarladık */
+#search,
+#lucky {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+/* İmleç buton üzerindeyken butonlar farklı renk ve kenarlık olmalıdır */
+#search:hover {
+    border-color: #bbbbbb;
+    border-width: 1px;
+}
+
+#lucky:hover {
+    border-color: #bbbbbb;
+    border-width: 1px;
+}
+
+/* Düğmeler yerleştirdik */
+#search-buttons {
+    margin-top: 30px;
+}
+
+/* Footer pozisyonu */
+#footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 279px;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+/* Sağ altbilgi konumlandırıldı
+    Sağ altbilgideki öğeler sağdan yerleştirildi */
+#right-footer * {
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+/* Sol altbilgi konumlandırıldı
+    Sol altbilgideki öğeler soldan yerleştirildi */
+#left-footer * {
+    float: left;
+    margin-left: 30px;
+    font-size: 15px;
+}
